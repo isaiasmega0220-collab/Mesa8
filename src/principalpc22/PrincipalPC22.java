@@ -11,7 +11,9 @@ public class PrincipalPC22 {
     int N1 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el 1° numero: "));
     int N2 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el 2° numero: "));
     
-    JOptionPane.showMessageDialog(null,"Resultado: "+(N1+N2)+".");     
+    Resta R = new Resta();
+    
+    JOptionPane.showMessageDialog(null,"Resultado: "+ R.Restar(N1, N2)+".");     
     }
     
 }
